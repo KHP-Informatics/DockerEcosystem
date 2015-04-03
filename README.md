@@ -7,13 +7,13 @@ A running list of Docker's Ecosystem of tools. Contributions to the list welcome
 * **[Orchestration] (#orchestration)**
 * **[Networking] (#networking)**
 * **[Data and Volumes] (#data-and-volumes)**
-* * **[Layers] (#layers)**
+* **[Layers] (#layers)**
 * **[Development] (#development)**
 * **[Base Images] (#base-images)**
 * **[Thin Bases] (#thin-bases)**
 * **[Fat Bases] (#fat-bases)**
 * **[Patterns] (#patterns)**
-* * **[Graphical User Interface] (#graphical-user-interface)**
+* **[Graphical User Interface] (#graphical-user-interface)**
 * **[Hosting] (#hosting)**
 * **[Alternative Docker Registries] (#alternative-docker-registries)**
 * **[Alternatives Container Engines] (#alternatives-container-engines)**
@@ -90,7 +90,7 @@ Alternative Public Registries
 * ?
 
 
-Alternatives Container Engines
+Alternative Container Engines
 ==============================
 * [Ubuntu LXD] (http://www.ubuntu.com/cloud/tools/lxd)
 * [CoreOS Rocket] (https://coreos.com/blog/rocket/)
