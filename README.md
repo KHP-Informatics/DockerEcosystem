@@ -4,19 +4,19 @@
 A running list of Docker's Ecosystem of tools. Contributions to the list welcome.
 
 ### Table of Contents
-**[Orchestration] (#orchestration)**
-**[Networking] (#networking)**
-**[Data and Volumes] (#data-and-volumes)**
-**[Layers] (#layers)**
-**[Development] (#development)**
-**[Base Images] (#base-images)**
-**[Thin Bases] (#thin-bases)**
-**[Fat Bases] (#fat-bases)**
-**[Patterns] (#patterns)**
-**[Graphical User Interface] (#graphical-user-interface)**
-**[Hosting] (#hosting)**
-**[Alternative Docker Registries] (#alternative-docker-registries)**
-**[Alternatives Container Engines] (#alternatives-container-engines)**
+* **[Orchestration] (#orchestration)**
+* **[Networking] (#networking)**
+* **[Data and Volumes] (#data-and-volumes)**
+* * **[Layers] (#layers)**
+* **[Development] (#development)**
+* **[Base Images] (#base-images)**
+* **[Thin Bases] (#thin-bases)**
+* **[Fat Bases] (#fat-bases)**
+* **[Patterns] (#patterns)**
+* * **[Graphical User Interface] (#graphical-user-interface)**
+* **[Hosting] (#hosting)**
+* **[Alternative Docker Registries] (#alternative-docker-registries)**
+* **[Alternatives Container Engines] (#alternatives-container-engines)**
 
 
 Orchestration
