@@ -103,6 +103,10 @@ Alternative Public Registries
 =============================
 * ?
 
+Specifications and Standards
+============================
+[Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language)
+[Bioboxes](https://github.com/bioboxes/rfc)
 
 Alternative Container Engines
 ==============================
