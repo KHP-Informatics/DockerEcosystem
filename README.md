@@ -1,7 +1,7 @@
 # DockerEcosystem
 =================
 
-A running list of Docker's Ecosystem of tools. Contributions to the list welcome.
+A running list of Docker's Ecosystem of tools. Contributions to the list welcome (send me a PR).
 
 ### Table of Contents
 * **[Composition, Scheduling and Orchestration] (#orchestration)**
@@ -22,12 +22,17 @@ A running list of Docker's Ecosystem of tools. Contributions to the list welcome
 
 Composition, Scheduling and Orchestration 
 =========================================
-*could do with splitting into subsections....*
+*Orchastration space quite expansive, could do with splitting into subsections....*
 * Docker's tools in this space [Docker machine,swarm and compose] ( http://blog.docker.com/2015/02/orchestrating-docker-with-machine-swarm-and-compose/)
 * [Fig] (http://www.fig.sh/). Now Docker Compose see below
 * [Docker Compose] (https://github.com/docker/compose). Define multi-container apps 
 * [Docker Machine] (https://github.com/docker/machine). Automate provision of Docker on remote hosts 
-* [Docker Swarm] (https://github.com/docker/swarm/). Cluster/Pool Docker Hosts as vHost 
+* [Docker Swarm] (https://github.com/docker/swarm/). Cluster/Pool Docker Hosts as vHost
+* [Packer](https://www.packer.io/) not strictly Docker specific, but definitly used in this space
+* [Crane](https://github.com/michaelsauter/crane)
+* [Shipyard](https://github.com/shipyard/shipyard)
+* [Maestro](https://github.com/toscanini/maestro) formerly dockermix
+* [Fleet] (https://github.com/coreos/fleet) low level Docker clustering
 * [Google Kubernettes] (http://kubernetes.io/). Multi-container app definition and clustering 
 * [Apache Mesos] (http://mesos.apache.org/). Clustering and Orchastration 
 * [Panamax] (http://panamax.io/). Define multi-container apps 
@@ -51,6 +56,7 @@ Service Discovery
 Data and Volumes
 ================
 * [Flocker] (https://docs.clusterhq.com/en/0.3.2/gettingstarted/)
+* [Ferry] (http://ferry.opencore.io/en/latest/) ?move?
 
 File system Layers manipulation
 ===============================
@@ -66,6 +72,7 @@ Base Linux Images
 These are linux distros specifically stripped down for running containerized processes. 
 *I may later subset this section based on the mechanism for PID=1*
 * [Ubuntu Snappy] (http://www.ubuntu.com/cloud/tools/snappy)
+* [Project Atomic] (http://www.projectatomic.io/) 
 * [Rancher] (http://rancher.com/)
 * [CoreOS] (https://coreos.com/using-coreos/containers/)
 * [Phusion] (http://phusion.github.io/baseimage-docker/)
@@ -82,11 +89,15 @@ Patterns
 Graphical User Interface
 ========================
 * [Kitematic] (https://kitematic.com/)
+* [DockerUI] (https://github.com/crosbymichael/dockerui)
 
 Hosting
 =======
 * [Tutum] (https://www.tutum.co/)
 * [Rancher] (http://rancher.com/rancher-io/)
+* [Quay](https://quay.io)
+* [Orchard] (https://www.orchardup.com/)
+* [Octohost] (http://octohost.io/) mini Docker PaaS
 
 Alternative Public Registries
 =============================
