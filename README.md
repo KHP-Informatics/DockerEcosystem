@@ -38,7 +38,7 @@ Composition, Scheduling and Orchestration
 * [Panamax] (http://panamax.io/). Define multi-container apps 
 * [Dray] (https://github.com/CenturyLinkLabs/dray). Containerized workflow management
 * [Marathon] (https://mesosphere.github.io/marathon/docs/native-docker.html) container scheduler
-* [Nextflow] (http://www.nextflow.io/). Self contained, reproducable computational pipelines 
+* [Nextflow] (http://www.nextflow.io/). Enables self contained, reproducible computational pipelines 
 * [Tiller] (https://github.com/markround/tiller). Config file generation 
 
 Networking
