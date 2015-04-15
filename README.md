@@ -7,15 +7,13 @@ A running list of Docker's Ecosystem of tools. Contributions to the list welcome
 * **[Composition, Scheduling and Orchestration] (#orchestration)**
 * **[Networking] (#networking)**
 * **[Data and Volumes] (#data-and-volumes)**
-* **[Layers] (#layers)**
-* **[Development] (#development)**
-* **[Base Images] (#base-images)**
-* **[Thin Bases] (#thin-bases)**
-* **[Fat Bases] (#fat-bases)**
-* **[Patterns] (#patterns)**
+* **[Docker Container Layers] (#docker-container-layers)**
+* **[Base Linux Images] (#base-linux-images)**
 * **[Graphical User Interface] (#graphical-user-interface)**
 * **[Hosting] (#hosting)**
-* **[Alternative Docker Registries] (#alternative-docker-registries)**
+* **[Specifications and Standards](#specifications-and-standards)**
+* **[Patterns] (#patterns)**
+* **[Docker Development] (#docker-development)**
 * **[Alternatives Container Engines] (#alternatives-container-engines)**
 
 
@@ -58,7 +56,7 @@ Data and Volumes
 * [Flocker] (https://docs.clusterhq.com/en/0.3.2/gettingstarted/)
 * [Ferry] (http://ferry.opencore.io/en/latest/) ?move?
 
-File system Layers manipulation
+Docker Container Layers
 ===============================
 * [Docker Squash] (https://github.com/jwilder/docker-squash)
 
@@ -77,36 +75,36 @@ These are linux distros specifically stripped down for running containerized pro
 * [CoreOS] (https://coreos.com/using-coreos/containers/)
 * [Phusion] (http://phusion.github.io/baseimage-docker/)
 
-Development
-===========
-* [PowerStrip] (https://github.com/ClusterHQ/powerstrip)
+Graphical User Interface
+========================
+* [Kitematic] (https://kitematic.com/)
+* [DockerUI] (https://github.com/crosbymichael/dockerui)
+* [Shipyard](https://github.com/shipyard/shipyard)
+
+Hosting
+=======
+* [Tutum] (https://www.tutum.co/) deploy containers to VMs from a wide range of cloud providers
+* [Google Container Engine] (https://cloud.google.com/container-engine/) deploy containers directly to GCE powered by Kubernetes
+* [Amazon Container Service] (http://aws.amazon.com/ecs/) deploy containers directly to EC2
+* [Rancher] (http://rancher.com/rancher-io/)
+* [Quay](https://quay.io)
+* [Orchard] (https://www.orchardup.com/)
+* [Octohost] (http://octohost.io/) mini Docker PaaS
+
+
+Specifications and Standards
+============================
+[Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language)
+[Bioboxes](https://github.com/bioboxes/rfc)
 
 Patterns
 ========
 * [Grand Ambassador] (http://container42.com/2014/08/28/docker-grand-ambassador/)
 * [8 Docker patterns] (http://www.hokstad.com/docker/patterns)
 
-Graphical User Interface
-========================
-* [Kitematic] (https://kitematic.com/)
-* [DockerUI] (https://github.com/crosbymichael/dockerui)
-
-Hosting
-=======
-* [Tutum] (https://www.tutum.co/)
-* [Rancher] (http://rancher.com/rancher-io/)
-* [Quay](https://quay.io)
-* [Orchard] (https://www.orchardup.com/)
-* [Octohost] (http://octohost.io/) mini Docker PaaS
-
-Alternative Public Registries
-=============================
-* ?
-
-Specifications and Standards
-============================
-[Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language)
-[Bioboxes](https://github.com/bioboxes/rfc)
+Docker Development
+===========
+* [PowerStrip] (https://github.com/ClusterHQ/powerstrip)
 
 Alternative Container Engines
 ==============================
