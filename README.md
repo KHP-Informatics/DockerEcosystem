@@ -105,6 +105,7 @@ Patterns
 Docker Development
 ===========
 * [PowerStrip] (https://github.com/ClusterHQ/powerstrip)
+* [Docker-Py] (https://github.com/docker/docker-py)
 
 Alternative Container Engines
 ==============================
